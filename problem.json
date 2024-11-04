@@ -1,0 +1,17 @@
+{
+    "problem": {
+        "objectiveFunction":"3*x + 2*y",
+        "constraints": [
+            {
+                "left": "x + 2*y",
+                "right": "0",
+                "operator": ">="
+            },
+            {
+                "left": "x + 3*y",
+                "right": "6",
+                "operator": "<="
+            }
+        ]
+    }
+}
